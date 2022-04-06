@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    /* background: silver; */
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    background: brown;
+    width: 1180px;
+    color: white;
+    padding: 20px 10px;
+}
+    #header h1{
+        
+        
+
+        
+    }
+#nav{
+    background: orange;
+    width: 1200px;
+    /* height: 50px; */
+}
+    #nav ul{
+       list-style: none;
+    }
+    #nav ul li{
+        float: left;
+        text-decoration: none;
+        width: 240px;
+        padding: 20px 0;
+        text-align: center;
+     }
+
+     #nav li:hover{
+        background-color:turquoise
+        
+     }
+#middle{
+    
+    width: 1200px;
+    /* height: 400px; */
+    overflow: hidden;
+    
+}
+    #left{
+        /* background: darkcyan; */
+        width: 800px;
+        float: left;
+    }
+
+        .post{
+            background: darkgray;
+            margin: 20px;
+        }
+            .title{
+                background: darkseagreen;
+                padding: 15px 10px;
+                color: black;
+                font-size: 20px;
+            }
+            .description{
+                background-color: burlywood;
+                padding: 20px;
+                font-size: 20px;
+            }
+
+    #right{
+        width: 360px;
+        float: left;
+        height: 600px;
+        padding: 20px;
+        
+    }
+        #right h1{
+           text-align: center;
+        }
+        .latest-posts{
+            background: brown;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .latest-posts-group{
+            margin: 20px 0;
+        }
+
+        .news-letter-head{
+            padding: 10px 0;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        input[type="text"]{
+            width: 320px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        input[type="submit"]{
+            background: yellow;
+            width: 355px;
+            padding: 15px 0;
+            font-size: 20px;
+
+        }
+#footer{
+    background: brown;
+    width: 1200px;
+    height: 50px;
+
+}
